@@ -1,0 +1,5 @@
+Steps to run Loki locally:
+1. docker pull grafana/loki:2.8.2
+2. docker run -d -p 3100:3100 grafana/loki:2.8.2
+3. Query logs using:
+curl http://localhost:3100/ready
